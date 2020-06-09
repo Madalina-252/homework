@@ -1,0 +1,47 @@
+h4,
+p {
+  text-align: center;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 800px;
+  margin: auto;
+}
+#watch {
+  border: 2px lightgrey;
+  border-radius: 5px;
+  border-style: none solid solid;
+}
+.watch1 {
+  flex: 2;
+}
+.watch2 {
+  margin: 0 20px;
+  flex: 1;
+}
+.watch3 {
+  flex: 1;
+}
+img {
+  width: 100%;
+  height: 60%;
+}
+div p {
+  padding: 5px;
+}
+button {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(247, 243, 243);
+  border: 1px solid gray;
+  color: gray;
+  padding: 10px 28px;
+  font-weight: bold;
+  font-size: 12px;
+}
+button:hover {
+  color: rgb(212, 58, 58);
+  box-shadow: inset 0 -3px 00 rgb(58, 36, 8);
+}
